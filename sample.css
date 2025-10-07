@@ -1,0 +1,56 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  padding-top: 20px;
+}
+
+.product-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.product-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+.product-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.form-label {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.form-control,
+.form-select {
+  border-radius: 5px;
+}
+
+.btn-primary {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .product-title {
+    font-size: 1.5rem;
+  }
+
+  .product-description {
+    font-size: 0.9rem;
+  }
+
+  .product-price {
+    font-size: 1.3rem;
+  }
+
+  .btn-primary {
+    width: 100%;
+  }
+}
